@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: #0f0c29;
+            background: -webkit-linear-gradient(to right, #646638, #8c9043, #FCF9CE);
+            background: linear-gradient(to right, #646638, #8c9043, #FCF9CE);
+        }
+
+        .form-container {
+            text-align: center;
+        }
+
+        .image-form {
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow */
+            background-color: #fefde9; /* Background color for the image container */
+            border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+        }
+
+        .form-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px 8px 0 0; /* Optional: Adjust border-radius for top corners */
+        }
+    </style>
+</head>
+<body>
+    <script>
+        AOS.init();
+    </script>
+    <div class="form-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="image-form">
+            <img class="form-image" src="Qrcodefix.png" alt="Image Form">
+            <!-- Replace "your_image_url.jpg" with the actual URL or path to your image -->
+        </div>
+    </div>
+</body>
+</html>
